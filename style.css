@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    position: absolute;
+    right: 15px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    padding: 25px 15px 0 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.nav ul li a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+}
+
+.nav ul li a img {
+    border-radius: 50px;
+    position: relative;
+    top: -10px;
+}
+
+.logo img {
+    max-width: 300px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.busqueda {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-60%, -60%);
+}
+
+.busqueda input {
+    position: relative;
+    left: -70px;
+    top: -20px;
+    width: 525px;
+    border-radius: 50px;
+    padding: 15px;
+    border: 1px rgba(0, 0, 0, 0.15) solid;
+}
+
+.busqueda:hover input,
+.busqueda input:focus {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.busqueda img {
+    position: relative;
+    top: -66px;
+    right: -400px;
+    transform: scale(0.6);
+}
+
+.botones {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.botones button {
+    position: relative;
+    top: 100px;
+
+
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.06);
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botones button:nth-child(1) {
+    margin-right: 15px;
+}
+
+.botones button:hover {
+    border: solid 1px rgba(0, 0, 0, 0.4);
+}
+
+.ofrecido {
+    position: absolute;
+    bottom: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ofrecido a {
+    color: blue;
+}
+
+.footer p {
+    position: absolute;
+    bottom: 52px;
+    left: 0;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 12px 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+
+.footer .futi {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.06);
+
+    width: 100%;
+    padding-left: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.futi li,
+.futi-der li {
+    padding: 10px 10px;
+    line-height: 2;
+}
+
+.futi li a,
+.futi-der li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer .futi-der {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 20px;
+}
